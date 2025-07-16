@@ -58,11 +58,7 @@ void sort()
 			}
 		}
 	}
-	int p;
-	for(p =0;p<=pos;p++)
-	{
-		printf("%d\t",a[i]);
-	}
+	printf("Sorted");
 }
 
 
@@ -110,7 +106,7 @@ void processArray()
 					search(se);
 					break;
 				case 5:
-					sort();
+					sort(); 	
 					break;
 			default:
 				printf("Error: Wrong choice");
